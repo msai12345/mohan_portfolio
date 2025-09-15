@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            line-height: 1.6;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            position: sticky;
+            top: 0;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+        .about-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 10%;
+        }
+        .about-section img {
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border: 5px solid #fff;
+        }
+        .about-text {
+            max-width: 600px;
+            margin-left: 50px;
+        }
+        .about-text h1 {
+            font-size: 3rem;
+            color: #ffd700;
+            margin-bottom: 20px;
+        }
+        .about-text h2 {
+            color: #00cec9;
+        }
+        .projects, .certificates {
+            padding: 50px 10%;
+        }
+        .projects h1, .certificates h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            color: #ffd700;
+        }
+        .projects h2, .certificates h3 {
+            color: #00cec9;
+        }
+        .projects p, .certificates a {
+            margin-top: 10px;
+        }
+        .certificates a {
+            display: inline-block;
+            padding: 10px 15px;
+            background: linear-gradient(45deg, #f06, #3cf);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .certificates a:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            padding: 20px 10%;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            margin-top: 50px;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 30px;
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #f39c12;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="about-section">
+        <img src="images/mohan3.jpg" alt="Mohan Sai">
+        <div class="about-text">
+            <h1>About Me</h1>
+            <h2>Bandi Mohan Sai</h2>
+            <p>
+                I am a skilled web developer with over 1 year of experience. My passion lies in creating captivating
+                website develop and implementing them through front-end development. I strive to deliver visually appealing
+                and user-friendly websites that offer a seamless experience.
+            </p>
+        </div>
+    </div>
+
+    <div class="projects">
+        <h1>Projects</h1>
+        <h2>Seoul Bike Sharing Demand Prediction</h2>
+        <p>Trained a model to predict bike rentals given weather conditions and various factors.</p>
+
+        <h2>Life Expectancy Post Thoracic Surgery</h2>
+        <p>Predicted survival rates post-surgery using machine learning classification models.</p>
+
+        <h2>Impact of Social Media on Cryptocurrency Prices</h2>
+        <p>Performed sentiment analysis on real-time tweets to correlate cryptocurrency prices.</p>
+    </div>
+
+    <div class="certificates">
+        <h1>Certificates</h1>
+        <a href="images/smartknower.jpg">SmartKnower - IoT</a><br>
+        <a href="images/cognibot.png">Cognibot - Seoul Bike Sharing</a><br>
+        <a href="images/smartinternz.jpg">SmartInternz - Thoracic Surgery Prediction</a><br>
+        <a href="images/kings.jpg">Kings Engineering - Social Media Analysis</a><br>
+        <a href="images/azure.png">Microsoft Azure - Cloud Computing</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Bandi Mohan Sai. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.twitter.com"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </footer>
+</body>
+</html>

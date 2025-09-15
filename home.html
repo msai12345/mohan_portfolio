@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(120deg, #84fab0, #8fd3f4);
+            color: #333;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100vh;
+            padding: 0 20px;
+            
+        }
+        nav {
+            background-color:  lightblue;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            /* max-width: 1200px; */
+            /* padding: 20px; */
+            position: absolute;
+            top: 0;
+        }
+        nav img {
+            border-radius: 50%;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #007bff;
+        }
+        .detail h1 {
+            font-size: 3em;
+            margin: 20px 0 10px;
+        }
+        .detail h1 span {
+            color: #007bff;
+        }
+        .detail p {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .detail a {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .detail a:hover {
+            background: #0056b3;
+        }
+        .home {
+            margin-top: 30px;
+        }
+        .home a {
+            margin: 0 10px;
+            width: 40px;
+            height: 40px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 50%;
+            font-size: 1.2em;
+            transition: background 0.3s;
+        }
+        .home a:hover {
+            background: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images/mohan.jpg" height="80px" width="80px">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="detail">
+            <h1>I'm <span>MOHANSAI</span> BANDI</h1>
+            <p>Your go-to web developer, creating user-friendly and visually stunning websites.</p>
+            <a href="images/MOHANSAI - RESUME.pdf">DOWNLOAD CV</a>
+        </div>
+        <div class="home">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</body>
+</html>
